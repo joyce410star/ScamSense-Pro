@@ -28,8 +28,8 @@ def predict_ids(data, eps):
 st.sidebar.header("⚙️ 攻擊引擎設定")
 epsilon = st.sidebar.slider("設定擾動強度 (Epsilon)", 0.0, 0.3, 0.15, 0.01)
 st.sidebar.markdown("---")
-st.sidebar.write("👤 開發者：你的名字")
-st.sidebar.write("🏆 智慧創新大賞參賽作品")
+
+
 
 # --- 4. 核心功能區 ---
 tabs = st.tabs(["🚀 即時生成器", "📊 漏洞報告", "📂 批次處理"])
